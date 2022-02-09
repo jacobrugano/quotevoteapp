@@ -14,7 +14,7 @@
       </div>
       <div class="form-group">
 
-          <label for="name">Author:</label>
+          <label for="name" id="authorr">Author:</label>
           <input type="text" required class="form-control" id="name" [(ngModel)]="newGoal.name" placeholder="Write name of the author here:.." name="name" #name='ngModel' required>
 
           <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
