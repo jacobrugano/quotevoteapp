@@ -34,9 +34,9 @@
           <label for="complete">Date posted <span>....</span></label>
           <input type='date' id="complete" [(ngModel)]="newGoal.completeDate" name="completeDate" #completeDate="ngModel" required>
               <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-                  <p>Date is required</p>
+                  <p>NOTE: Date is required</p>
               </div>
       </div>
-      <button type="submit" class="btn btn-success">Add Goal</button>
+      <button type="submit" class="btn btn-success">Add Your Quote:</button>
   </form>
 </div>
