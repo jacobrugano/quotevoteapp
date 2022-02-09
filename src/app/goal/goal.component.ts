@@ -29,7 +29,7 @@ completeGoal(isComplete, index){
 }
 deleteGoal(isComplete, index){
   if (isComplete) {
-    let toDelete = confirm(`Are you sure you want to delete ${this.goals[index].name}?`)
+    let toDelete = confirm(`Are you very sure you want to delete ${this.goals[index].name}?`)
 
     if (toDelete){
       this.goals.splice(index,1)
