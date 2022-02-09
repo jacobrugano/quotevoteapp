@@ -4,4 +4,6 @@
 }
 #btn {
   text-align: center;
+  justify-content: center;
+  margin-top: 9px;
 }
