@@ -1,0 +1,9 @@
+<p>{{goal.description}}</p>
+<p>Number of days since quote was posted: {{goal.completeDate|dateCount}} days</p>
+<button (click)='goalDelete(true)' id="backcolor">Delete</button>
+<div>
+    <button class="btn btn-success" id="backcolor">Like</button>
+    <button class="btn btn-outline-danger" id="backcolor">Dislike</button>
+</div>
+<!-- <button class="btn btn-success"(click) = "likeButtonClick()">Like</button>
+<button class="btn btn-outline-danger" (click) = "dislikeButtonClick()">Dislike</button> -->
